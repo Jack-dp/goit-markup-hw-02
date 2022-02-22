@@ -57,12 +57,6 @@ body {
   line-height: 16.41px;
   color: var(--grey);
 }
-/* .header-contact:hover,
-.header-contact:active {
-  color: var(--blue);
-} */
-
-/* hero section */
 
 .section-hero {
   background-color: var(--black-2);
@@ -179,4 +173,41 @@ body {
 .footer-contact:hover,
 .footer-contact:active {
   text-decoration: underline 2px var(--blue);
+}
+
+/* страница Портфолио */
+
+/* кнопки фильтра */
+
+.btn-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+  border: none;
+  border-radius: 3px;
+  background-color: var(--lite-grey);
+  cursor: pointer;
+}
+
+.btn-filter:hover,
+.btn-filter:active {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/* секция карточек */
+
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--black);
+}
+
+.card-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--grey);
 }
