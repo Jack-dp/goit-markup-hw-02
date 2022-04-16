@@ -5,6 +5,7 @@ body {
 
 :root {
   --blue: #2196f3;
+  --blue-2: #188ce8;
   --black: #212121;
   --black-2: #2f303a;
   --white: #ffffff;
@@ -70,14 +71,20 @@ body {
 }
 
 .hero-button {
+  font-family: 'Roboto';
   background-color: var(--blue);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   color: var(--white);
   border: none;
-  border-radius: 3px;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--blue-2);
 }
 
 /* benefits */
@@ -131,11 +138,6 @@ body {
   background-color: var(--black-2);
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
-  text-decoration: underline 2px var(--blue);
-}
-
 .footer-logo-blue {
   font-family: 'Raleway';
   font-weight: 700;
@@ -172,7 +174,7 @@ body {
 .footer-adress:focus,
 .footer-contact:hover,
 .footer-contact:focus {
-  text-decoration: underline 2px var(--blue);
+  color: var(--blue);
 }
 
 /* страница Портфолио */
@@ -180,6 +182,7 @@ body {
 /* кнопки фильтра */
 
 .btn-filter {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
